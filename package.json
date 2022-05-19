@@ -1,0 +1,28 @@
+{
+  "name": "dawncraft-api",
+  "version": "0.0.1",
+  "description": "A part of Dawncraft API that serves image hosting service.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DawningW/Dawn-Image-Host.git"
+  },
+  "author": "Chen Wu",
+  "license": "MIT",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.21",
+    "ioredis": "^4.28.5",
+    "jimp": "^0.16.1",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^10.1.1",
+    "koa2-cors": "^2.0.6",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {}
+}
